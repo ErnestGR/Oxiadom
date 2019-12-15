@@ -1,11 +1,58 @@
-body {}
-
-.main-container {
-      margin: 0 auto;
-      background-color: brown;
-      width: 720px;
+body {
+      font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.jumbotron {
-      margin-top: 60px;
+.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+}
+
+li {
+      float: left;
+}
+
+li a {
+      display: block;
+      color: #353839;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+}
+
+.header {
+      color: #353839;
+      text-align: center;
+      padding: 5px;
+      height: 30px;
+      font-size: 10px;
+}
+
+.card-body {
+      color: white;
+      background-color: #353839;
+      border: none;
+}
+
+.arrivals {
+      padding: 30px;
+}
+
+.card-arrivals img {
+      background-color: #e3e3e3;
+      padding: 20px;
+}
+
+.container-requisitos {
+      margin: 0 auto;
+      padding: 30px;
+}
+
+
+@media only screen and (min-width: 768px) {
+      .main-container {
+            width: 960px;
+            margin: 0 auto;
+      }
 }
