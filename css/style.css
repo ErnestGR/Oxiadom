@@ -1,0 +1,11 @@
+body {}
+
+.main-container {
+      margin: 0 auto;
+      background-color: brown;
+      width: 720px;
+}
+
+.jumbotron {
+      margin-top: 60px;
+}
