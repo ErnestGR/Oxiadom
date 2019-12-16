@@ -90,6 +90,11 @@ h5 {
       margin-bottom: 30px;
 }
 
+footer {
+      background-color: #2b7a77;
+      color: whitesmoke;
+}
+
 @media only screen and (min-width: 768px) {
       .main-container {
             width: 960px;
