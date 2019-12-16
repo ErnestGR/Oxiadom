@@ -1,10 +1,11 @@
 body {
       font-family: 'Open Sans Condensed', sans-serif;
+      background-color: white;
 }
 
 .menu {
       list-style-type: none;
-      margin: 0;
+      margin-top: 0;
       padding: 0;
       overflow: hidden;
 }
@@ -46,9 +47,22 @@ li a {
 
 .container-requisitos {
       margin: 0 auto;
+      padding-left: 50px;
+      padding-right: 50px;
+}
+
+.gallery {
       padding: 30px;
 }
 
+.card-gallery img {
+      background-color: #e3e3e3;
+      padding: 20px;
+}
+
+.gallery .card {
+      margin-bottom: 25px;
+}
 
 @media only screen and (min-width: 768px) {
       .main-container {
