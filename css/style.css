@@ -1,5 +1,5 @@
 body {
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Roboto', sans-serif;
       background-color: white;
 }
 
@@ -96,8 +96,30 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
+      body {
+            font-family: 'Roboto', sans-serif;
+      }
+
       .main-container {
-            width: 960px;
+            width: 720px;
             margin: 0 auto;
+      }
+
+      .header p {
+
+            font-size: 20px;
+      }
+
+      .header {
+            height: 50px;
+      }
+
+      .navbar img {
+            height: 30%;
+            width: 30%;
+      }
+
+      .card img {
+            size: 50%;
       }
 }
